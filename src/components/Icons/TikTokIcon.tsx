@@ -1,6 +1,6 @@
 import React from "react";
 
-const TikTokIcon = () => {
+const TikTokIcon: React.FC = () => {
   return (
     <svg
         fill="currentColor"
