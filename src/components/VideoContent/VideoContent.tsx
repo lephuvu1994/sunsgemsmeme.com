@@ -19,6 +19,16 @@ const videoItem = [
     source: "/video/heTron2.mov",
     title: "",
   },
+  {
+    type: "video",
+    source: "/video/heTron2.mov",
+    title: "",
+  },
+  {
+    type: "video",
+    source: "/video/heTron2.mov",
+    title: "",
+  },
 ];
 const POWER_UPS_ITEM = [
   {
@@ -32,6 +42,18 @@ const POWER_UPS_ITEM = [
     icon: "/solIcon.svg",
     activeIcon: "",
     title: "SOL",
+  },
+  {
+    mode: "BSC",
+    icon: "/bscIcon.svg",
+    activeIcon: "",
+    title: "BSC",
+  },
+  {
+    mode: "ETH",
+    icon: "/ethIcon.svg",
+    activeIcon: "",
+    title: "ETH",
   },
 ];
 

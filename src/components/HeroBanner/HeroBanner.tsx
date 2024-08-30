@@ -10,7 +10,7 @@ const HeroBanner: React.FC = () => {
         <Dialog>
           <DialogTrigger>
             <Button
-              size="lg"
+              size="bLg"
               className="hover:bg-[#b0a7f6] bg-[#8b7df7] flex items-center  text-[#fff] border-2 border-b-8  font-bold px-20 py-6 cursor-pointer border-[#5a4fad] p-2 rounded-lg"
             >
               Hướng Dẫn
@@ -25,7 +25,7 @@ const HeroBanner: React.FC = () => {
         <Dialog>
           <DialogTrigger>
             <Button
-              size="lg"
+              size="bLg"
               className="hover:bg-[#b0a7f6] bg-[#8b7df7] flex items-center  text-[#fff] border-2 border-b-8  font-bold px-20 py-6 cursor-pointer border-[#5a4fad] p-2 rounded-lg"
             >
               Hướng Dẫn
@@ -38,7 +38,6 @@ const HeroBanner: React.FC = () => {
           </DialogContent>
         </Dialog>
       </div>
-      <div className="flex-1"></div>
     </article>
   );
 };

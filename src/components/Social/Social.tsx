@@ -1,6 +1,8 @@
 import clsx from "clsx";
 import style from "./style.module.css";
 import { InstagramIcon, TwitterIcon } from "lucide-react";
+import TikTokIcon from "../Icons/TikTokIcon";
+import TelegramIcon from "../Icons/TelegramIcon";
 
 export const socialUrls = {
   twitter: "https://twitter.com/dyan",
@@ -15,17 +17,24 @@ export const SOCIAL_LIST = [
     name: "X(Twitter)",
     link: socialUrls.twitter,
   },
-//   {
-//     id: "telegram",
-//     icon: <Teleg />,
-//     name: "Telegram",
-//     link: socialUrls.telegram,
-//   },
+  {
+    id: "telegram",
+    icon: <TelegramIcon />,
+    name: "Telegram",
+    link: socialUrls.telegram,
+  },
+
   {
     id: "instagram",
     icon: <InstagramIcon />,
     name: "Instagram",
     link: socialUrls.instagram,
+  },
+  {
+    id: "tiktok",
+    icon: <TikTokIcon />,
+    name: "TikTok",
+    link: socialUrls.telegram,
   },
 ];
 
