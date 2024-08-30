@@ -1,0 +1,92 @@
+/* Wrapper */
+.iconButton {
+    background-color: transparent;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Circle */
+  .iconButton span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0;
+  }
+  .iconButton:hover span {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin: -1rem;
+  }
+  .iconButton:hover i {
+    color: #fff;
+  }
+  #twitter span {
+    background-color: #4099ff;
+  }
+  #discord span {
+    background-color: #3b5998;
+  }
+  #telegram span {
+    background-color: #4099ff;
+  }
+  #medium span {
+    background-color: #242424;
+  }
+  #instagram span {
+    background-color: #db5a3c;
+  }
+  
+  .iconButton i {
+    background: none;
+    color: #a1afba;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: 10;
+  }
+  .iconButton #twitter {
+    color: #4099ff;
+  }
+  .iconButton #telegram {
+    color: #3b5998;
+  }
+  .iconButton #medium {
+    color: #242424;
+  }
+  .iconButton:hover #twitter,
+  .iconButton:hover #telegram,
+  .iconButton:hover #medium {
+    color: white;
+  }
+  .borderGradient {
+    position: relative;
+    background: linear-gradient(
+      30deg,
+      #09ffff 0%,
+      #2ca9ff 25%,
+      #e139fe 50%,
+      #2ca9ff 75%,
+      #09ffff 100%
+    );
+  }
+  
